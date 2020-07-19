@@ -11,8 +11,8 @@ def line(katz_deli)
     katz_deli.each do |person|
       num_in_line << " #{katz_deli.index(person) + 1}. #{person}"
     end
-    num_in_line.each do |x|
-      line << x
+    num_in_line.each do |num_person|
+      line << num_person
     end
     puts line
   end
